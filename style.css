@@ -1,0 +1,51 @@
+/*Background Image: https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb*/
+html {
+    background: url("backgroundIMG.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1, .generalinfo, .design{
+    text-align: center;
+}
+
+h1 {
+    text-shadow: 2px 1px 2px white;
+}
+
+h3 {
+     text-shadow: 2px 2px 8px white;
+     color: #4169E1;
+}
+
+.business-card-info {
+    margin: auto;
+}
+
+#card {
+    margin: auto;
+    width: 400px;
+    height: 229px;
+    border: 1px solid black;
+}
+
+.businesscard {
+    margin-left: auto;
+    margin-top: 5%;
+}
+
+#content {
+    margin:auto;
+    overflow: auto;
+    /*float: left;*/
+    text-align: center;
+}
+
+#photo{
+    float: left;
+    display:none;
+    overflow: auto;
+    width: 100px;
+    height: 100px;
+}
+
+
